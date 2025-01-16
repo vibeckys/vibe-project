@@ -1,14 +1,90 @@
 body {
-    background-color: rgb(244, 234, 234);
-    font-family: Arial, sans-serif;
-    color: rgb(93, 44, 44); 
-    line-height: 1,5;   
+    background-color: rgb(241, 225, 225);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(49, 37, 37); 
+    line-height: 1,5; 
+    background-image: url(images/medicina.jpg); 
+    
+
+}
+
+.container {
+    width: 900px;
+    margin: 10px auto;
 }
 
 h1 {font-size: 2.5em;
-    color: blue; 
-    margin: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #202a30; 
+    margin: 30px;
     text-align: center;
 }
 
+h2 {
+    font-size: 1.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #47093c; 
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #47093c; 
+    margin-bottom: 20px;
+}
+
+a {
+    color: #130834;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #3c3322;
+  }
+  
+a:active {
+    color: #c92f2f; 
+  }
+
+img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    border: 5px solid #ddd; 
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+.date {
+    font-family: 'Courier New', monospace;
+    color: #0e0c0c; 
+    font-size: 1.0rem;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+blockquote {
+    font-style: italic;
+    color: #d10d0d;
+    border-left: 4px solid #ccc; /* Vertical bar on the left */
+    padding-left: 15px;
+    margin: 15px 0;
+  }
+
+footer {
+    border-top: 1px dotted rgb(186, 25, 25);
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+  article img {
+      width: 100%;
+      height: auto;
+  }
 
